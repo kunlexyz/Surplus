@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Best School, Edumart, Education, Excellence Education,kids school        width=device-width, initial-scale=1.0">
+	<meta name="description" content="Best Nursery and Primary School in Lagos">
+	<meta name="author" content="Opeyemi Samuel Damilare">
+	
+<title>SurplusNG</title>
+<link rel="stylesheet" href="css/style4.css" />
+<link rel="stylesheet" href="css/style2.css" />
+</head>
+
+<body>
+<img id="myVideo" src="images/Lagos2.jpg" />
+<!- THe header starts here -->
+<header class="header-fixed">
+
+	<div class="heada miniBg">
+
+		<div class="headax"><a href="#">
+	<img src="images/logo.png" class="logo" /><span class="surp"> SURPLUS.NG</span></a></div>
+    
+
+		<div class="headin surp">
+			<a href="#"><div class="box1">Home</div></a>
+			<a href="#"><div class="box1 selected">Blog</div></a>
+			<a href="#"><div class="box1">Pricing</div></a>
+			<a href="#"><div class="box1">About</div></a>
+			<a href="#"><div class="box1">Faq</div></a>
+			<a href="#"><div class="box1">Contact</div></a>
+<span id="signUp">
+    	
+        <a href="#" class="searchb">Sign Up</a>
+    </span><span id="Login">
+    	
+        <a href="#" class="searchb">Login</a>
+    </span>
+	</div>
+		</div>
+
+</header>
+
+    <div class="cardio" id="sign">
+		<form action="" method="post">
+ <fieldset>
+  <legend class="engraved">Sign Up:</legend>
+   <input type="text" placeholder="Name" name="fname" class="inp" required /><br>
+  <input type="email" placeholder="Email" name="email" class="inp" required><br>
+  <input type="number" maxlength="11" placeholder="Phone Number" name="phone" class="inp" required><br>
+  <input type="text" placeholder="Location" name="location" class="inp" required><br>
+ <div class="cent">
+      <input type="radio" name="gender" class="inp2" required >Male
+      <input type="radio" name="gender" class="inp2" required >Female
+  </div>
+ </fieldset>
+ <div class="cent">
+	 <input type="submit" value="Submit" class="bigBtn">
+
+</div>
+</form>
+    </div>
+    <div class="cardio" id="Logi">
+		<form action="" method="post">
+ <fieldset>
+  <legend class="engraved">Login:</legend>
+   <input type="text" placeholder="Username" name="username" class="inp" required /><br>
+   <input type"password" placeholder="Password" name="password" class="inp" required>
+
+ </fieldset>
+ <div class="cent">
+	 <input type="submit" value="Login" class="bigBtn">
+
+</div>
+</form>
+    </div>
+</body>
+<script type="text/javascript" src="script/jq.js">
+</script>
+<script>
+document.getElementById('myVideo').style.height=window.innerHeight + 'px';
+
+$(document).ready(function(){
+  $("#Login").click(function(){
+    $('#Logi').slideDown(1000);
+    $('#sign').hide();
+  });
+  $("#signUp").click(function(){
+    $('#sign').slideDown(1000);
+    $('#Logi').hide();
+  });
+});
+</script>
+
+</html>

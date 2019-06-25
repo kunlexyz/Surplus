@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Best School, Edumart, Education, Excellence Education,kids school        width=device-width, initial-scale=1.0">
+	<meta name="description" content="Best Nursery and Primary School in Lagos">
+	<meta name="author" content="Opeyemi Samuel Damilare">
+	
+<title>SurplusNG</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<!- THe header starts here -->
+<header class="header-fixed">
+
+	<div class="header-limiter">
+
+		<h1><a href="#">
+	<img src="images/logo.png" class="logo" /><span> SURPLUS.NG</span></a></h1>
+    <span>
+    	<input type="text" name="search" placeholder="search" class="searchi" />
+        <a href="#" class="searchb">search</a>
+    </span>
+
+		<nav>
+			<a href="#">Home</a>
+			<a href="#" class="selected">Blog</a>
+			<a href="#">Pricing</a>
+			<a href="#">About</a>
+			<a href="#">Faq</a>
+			<a href="#">Contact</a>
+		</nav>
+
+	</div>
+
+</header>
+
+<!-- You need this element to prevent the content of the page from jumping up -->
+<div class="header-fixed-placeholder"></div>
+
+<!-- The content of your page would go here. -->
+<!-- header ends here -->
+	<div class="container">
+    	<div class="mainBox">
+
+<div class="card">
+	<img src="images/2.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div>
+    </div>
+<div class="card">
+	<img src="images/3.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div></div>
+<div class="card">
+	<img src="images/5.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div></div>
+<div class="card">
+	<img src="images/4.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div>
+    </div>
+<div class="card">
+	<img src="images/6.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div></div>
+<div class="card">
+	<img src="images/7.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div>
+ </div>
+<div class="card">
+	<img src="images/9.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div>
+ </div>
+<div class="card">
+	<img src="images/10.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div>
+ </div>
+    <!-- First 3-->
+<div class="card">
+	<img src="images/11.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div>
+ </div>
+<div class="card">
+	<img src="images/12.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div>
+ </div>
+<div class="card">
+	<img src="images/13.jpg" class="cardo" />
+    <div class="foota"> More&gt;&gt;</div>
+ </div>
+    <!-- Another 3-->
+
+<div class="card card5">
+	<img src="images/logo.png" class="logo" />
+    <div class="nam">SURPLUS.NG</div>
+        	<div class="heada">
+            	<div class="menu">Home </div>
+            	<div class="menu">About </div>
+            	<div class="menu">Contact </div>
+            </div> 
+	
+</div>    
+         </div>
+	</div>
+</body>
+<script type="text/javascript" src="script/jq.js"></script>
+<script>
+
+	$(document).ready(function(){
+
+		var showHeaderAt = 150;
+
+		var win = $(window),
+				body = $('body');
+
+		// Show the fixed header only on larger screen devices
+
+		if(win.width() > 400){
+
+			// When we scroll more than 150px down, we set the
+			// "fixed" class on the body element.
+
+			win.on('scroll', function(e){
+
+				if(win.scrollTop() > showHeaderAt) {
+					body.addClass('fixed');
+				}
+				else {
+					body.removeClass('fixed');
+				}
+			});
+
+		}
+
+	});
+
+</script>
+
+</html>
